@@ -18,3 +18,5 @@ Can run with just docker with the following command:
 ```
 docker run -p 3000:3000 express-app:v1
 ```
+
+App will be listening at localhost:3000 when running via nodejs or docker and using the above commands. App will be listening at localhost:30002 when deployed to kubernetes.
